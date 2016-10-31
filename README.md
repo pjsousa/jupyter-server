@@ -22,7 +22,7 @@ docker build -t pedro/datascience-notebook .
 
 ```
 
-## from the oficial images docs, you need to set your data home/jovyan/work
+# from the oficial images docs, you need to set your data on /home/jovyan/work inside the container
 
 mkdir -p /docker-volumes/data/ipython-notebooks
 
