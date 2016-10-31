@@ -20,10 +20,8 @@ docker build -t pedro/datascience-notebook .
 
 # RUN
 
-```
-
+``` bash
 # from the oficial images docs, you need to set your data on /home/jovyan/work inside the container
-
 mkdir -p /docker-volumes/data/ipython-notebooks
 
 docker run -v /docker-volumes/data/ipython-notebooks:/home/jovyan/work --name=ipython-server -d pedro/datascience-notebook
